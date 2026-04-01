@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Yuvavignesh Balamurugan</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="nav-inner"><a href="index.html" class="nav-logo">YB<span>.dev</span></a><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="projects.html">Projects</a></li><li><a href="experience.html">Experience</a></li><li><a href="blog.html">Blog</a></li></ul><div class="hamburger"><span></span><span></span><span></span></div></div></nav>
+
+  <div class="page-header"><div class="page-header-inner">
+    <p class="section-label">// Portfolio</p>
+    <h1 class="page-title">Projects</h1>
+    <p class="page-subtitle">Medical devices, robotics, IoT systems, and mechatronics.</p>
+  </div></div>
+
+  <section class="section" style="padding-top:0">
+    <div class="section-inner">
+      <div class="projects-list">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card reveal">
+          <div class="project-number">PROJECT 01</div>
+          <h3 class="project-title">Wearable Rehabilitation Shoe Sole &amp; Glove Device</h3>
+          <p class="project-sub">Barrow Neurological Institute &amp; Dignity Health Care — ASU Capstone</p>
+          <div class="project-tech"><span class="tech-tag">SolidWorks</span><span class="tech-tag">Fusion 360</span><span class="tech-tag">FSR Sensors</span><span class="tech-tag">Op-Amp Circuits</span><span class="tech-tag">ESP32</span><span class="tech-tag">Wi-Fi</span><span class="tech-tag">3D Printing</span><span class="tech-tag">V&amp;V Protocols</span></div>
+          <ul class="project-bullets">
+            <li>Led new product development of a dual wearable system (glove + outsole) with 7 pressure sensors from concept to working hardware, existing tools only measured total force, so designed per-point mapping from scratch.</li>
+            <li>Designed and fabricated TPU housings, ABS enclosures, and custom 2 mm sensor “islands” in SolidWorks, handled CAD, 3D printing, and hands-on assembly end-to-end.</li>
+            <li>Soldered and integrated the full electronics stack: ESP32-S3, MCP6002/6004 op-amps, DRV2605 haptic drivers, hit 45 FPS with sub-100 ms latency, solving the Bluetooth lag problem.</li>
+            <li>Developed and executed V&amp;V protocols including sensor calibration (&lt;5% error), 10+ hour battery life, 3,000+ cycle durability</li>
+            <li>Built a real-time color-coded pressure feedback interface with data export; therapists validated clinical suitability.</li>
+          </ul>
+          <!-- SAVE AS: images/wearable-1.jpg through images/wearable-6.jpg -->
+          <div class="project-gallery">
+            <div class="img-slot"><img src="images/wearable-1.jpg" onerror="this.outerHTML='Image 1'" /></div>
+            <div class="img-slot"><img src="images/wearable-2.png" onerror="this.outerHTML='Image 2'" /></div>
+            <div class="img-slot"><img src="images/wearable-3.png" onerror="this.outerHTML='Image 3'" /></div>
+            <div class="img-slot"><img src="images/wearable-4.png" onerror="this.outerHTML='Image 4'" /></div>
+            <div class="img-slot"><img src="images/wearable-5.png" onerror="this.outerHTML='Image 5'" /></div>
+            <div class="img-slot"><img src="images/wearable-6.png" onerror="this.outerHTML='Image 6'" /></div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card reveal">
+          <div class="project-number">PROJECT 02</div>
+          <h3 class="project-title">Biomechanical Analysis of Additively Manufactured Implant</h3>
+          <p class="project-sub">Radial Head Transverse Fracture (Wrist) — Medical Device Project</p>
+          <div class="project-tech"><span class="tech-tag">DMLS 3D Printing</span><span class="tech-tag">ANSYS FEA</span><span class="tech-tag">SolidWorks</span><span class="tech-tag">Fatigue Analysis</span><span class="tech-tag">Ti-6Al-4V</span><span class="tech-tag">Design Controls</span></div>
+          <ul class="project-bullets">
+            <li>Developed a patient-specific radial head implant using DMLS additive manufacturing and comprehensive FEA analysis for transverse fracture fixation.</li>
+            <li>Achieved a 34% reduction in stress shielding over standard implants through topology-optimized lattice structures.</li>
+            <li>Conducted stress analysis, fatigue life estimation under physiological cyclic loading, and structural integrity evaluation.</li>
+            <li>Documented verification methods aligned with regulated medical device design controls.</li>
+          </ul>
+          <!-- SAVE AS: images/implant-1.jpg through images/implant-6.jpg -->
+          <div class="project-gallery">
+            <div class="img-slot"><img src="images/implant-1.jpg" onerror="this.outerHTML='Image 1'" /></div>
+            <div class="img-slot"><img src="images/implant-2.jpg" onerror="this.outerHTML='Image 2'" /></div>
+            <div class="img-slot"><img src="images/implant-3.jpg" onerror="this.outerHTML='Image 3'" /></div>
+            <div class="img-slot"><img src="images/implant-4.jpg" onerror="this.outerHTML='Image 4'" /></div>
+            <div class="img-slot"><img src="images/implant-5.jpg" onerror="this.outerHTML='Image 5'" /></div>
+            <!-- <div class="img-slot"><img src="images/implant-6.jpg" onerror="this.outerHTML='Image 6'" /></div> -->
+          </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card reveal">
+          <div class="project-number">PROJECT 03</div>
+          <h3 class="project-title">4×4 Maze Solving using MyCobot Pro 600 Robotic Arm</h3>
+          <p class="project-sub">RAS 545 — Robotic Systems I, Arizona State University</p>
+          <div class="project-tech"><span class="tech-tag">ROS2</span><span class="tech-tag">MoveIt2</span><span class="tech-tag">OpenCV</span><span class="tech-tag">A* Algorithm</span><span class="tech-tag">Python</span><span class="tech-tag">C++</span><span class="tech-tag">TCP/IP</span><span class="tech-tag">Digital Twin</span></div>
+          <ul class="project-bullets">
+            <li>Built the full pipeline end-to-end: camera calibration, OpenCV maze detection, A* pathfinding, and 35-waypoint execution on a 6-DOF arm via MoveIt2 and Ethernet TCP control.</li>
+            <li>Developed camera calibration pipeline and mapped pixel coordinates to real-world robot workspace coordinates.</li>
+            <li>Deployed a full digital twin in ROS2 with MoveIt2 for sim-to-real trajectory planning and joint state logging.</li>
+            <li>Implemented TCP socket programming for real-time communication between the planning computer and the robot.</li>
+            <li>KDL solver was producing erratic joint rotations, diagnosed the issue, refined URDF joint limits, and got feasible trajectories the real robot could execute safely.</li>
+          </ul>
+          <!-- SAVE AS: images/maze-1.jpg through images/maze-6.jpg -->
+          <div class="project-gallery">
+            <div class="img-slot"><img src="images/maze-1.jpg" onerror="this.outerHTML='Image 1'" /></div>
+            <div class="img-slot"><img src="images/maze-2.jpg" onerror="this.outerHTML='Image 2'" /></div>
+            <!-- <div class="img-slot"><img src="images/maze-3.jpg" onerror="this.outerHTML='Image 3'" /></div>
+            <div class="img-slot"><img src="images/maze-4.jpg" onerror="this.outerHTML='Image 4'" /></div>
+            <div class="img-slot"><img src="images/maze-5.jpg" onerror="this.outerHTML='Image 5'" /></div>
+            <div class="img-slot"><img src="images/maze-6.jpg" onerror="this.outerHTML='Image 6'" /></div> -->
+          </div>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <div class="project-card reveal">
+          <div class="project-number">PROJECT 04</div>
+          <h3 class="project-title">IoT-Based Battery Status Monitoring System</h3>
+          <p class="project-sub">EGR 538 — Batteries &amp; EV Technologies, Arizona State University</p>
+          <div class="project-tech"><span class="tech-tag">ESP8266</span><span class="tech-tag">Arduino IoT Cloud</span><span class="tech-tag">TP4056</span><span class="tech-tag">Li-ion</span><span class="tech-tag">Voltage Divider</span><span class="tech-tag">Buck-Boost</span></div>
+          <ul class="project-bullets">
+            <li>Built an IoT system for real-time monitoring of Li-ion battery voltage and state-of-charge using NodeMCU ESP8266, TP4056, and resistive voltage divider.</li>
+            <li>Designed voltage divider circuit scaling battery voltage (0–4.2V) to ESP8266's ADC range (0–3.3V) with consistent accuracy.</li>
+            <li>Transmitted data to Arduino IoT Cloud dashboard for remote voltage and percentage visualization.</li>
+            <li>Studied Buck-Boost converter topology supporting multiple battery chemistries with ~92% efficiency.</li>
+          </ul>
+          <!-- SAVE AS: images/battery-1.jpg through images/battery-6.jpg -->
+          <div class="project-gallery">
+            <div class="img-slot"><img src="images/battery-1.jpeg" onerror="this.outerHTML='Image 1'" /></div>
+            <div class="img-slot"><img src="images/battery-2.jpeg" onerror="this.outerHTML='Image 2'" /></div>
+            <div class="img-slot"><img src="images/battery-3.jpeg" onerror="this.outerHTML='Image 3'" /></div>
+            <div class="img-slot"><img src="images/battery-4.jpg" onerror="this.outerHTML='Image 4'" /></div>
+            <!-- <div class="img-slot"><img src="images/battery-5.jpg" onerror="this.outerHTML='Image 5'" /></div>
+            <div class="img-slot"><img src="images/battery-6.jpg" onerror="this.outerHTML='Image 6'" /></div> -->
+          </div>
+        </div>
+
+        <!-- PROJECT 5 -->
+        <div class="project-card reveal">
+          <div class="project-number">PROJECT 05</div>
+          <h3 class="project-title">Collaborative Robot Programming for Pick-and-Place Palletizing Using a UR Cobot & Robotiq Gripper</h3>
+          <p class="project-sub">EGR 550 — Mechatronic Systems, Arizona State University</p>
+          <div class="project-tech"><span class="tech-tag">Universal Robots</span><span class="tech-tag">Robotiq Gripper</span><span class="tech-tag">Teach Pendant</span><span class="tech-tag">Move J / Move L</span><span class="tech-tag">Motion Planning</span><span class="tech-tag">Industry 4.0</span></div>
+          <ul class="project-bullets">
+            <li>Programmed a UR-series cobot via the teach pendant to execute an industrial-style pick-and-place palletizing operation, defining precise waypoints and motion paths for multi-object handling.</li>
+            <li>Implemented Move J (joint) commands for fast inter-waypoint transitions and Move L (linear) commands for precise vertical/horizontal movements during cube pickup and placement, ensuring alignment and collision avoidance.</li>
+            <li>Coordinated Robotiq gripper open/close sequences with arm trajectories, designing upward clearance motions above the conveyor tray to eliminate arm-conveyor interference.</li>
+          </ul>
+          <div class="project-gallery">
+            <div class="img-slot"><img src="images/motor-1.png" onerror="this.outerHTML='Image 1'" /></div>
+            <div class="img-slot"><img src="images/motor-2.png" onerror="this.outerHTML='Image 2'" /></div>
+            <div class="img-slot"><img src="images/motor-3.png" onerror="this.outerHTML='Image 3'" /></div>
+            <div class="img-slot"><img src="images/motor-4.png" onerror="this.outerHTML='Image 1'" /></div>
+            <div class="img-slot"><img src="images/motor-5.png" onerror="this.outerHTML='Image 2'" /></div>
+            <div class="img-slot"><img src="images/motor-6.png" onerror="this.outerHTML='Image 3'" /></div>
+          </div>
+        </div>
+
+        <!-- PROJECT 6 -->
+        <div class="project-card reveal">
+          <div class="project-number">PROJECT 06</div>
+          <h3 class="project-title">Motion Analysis Nodes — SimpleFlow Optical Flow</h3>
+          <p class="project-sub">EGR 530 — Principles of Systems Engineering, Arizona State University</p>
+          <div class="project-tech"><span class="tech-tag">OpenCV</span><span class="tech-tag">ROS</span><span class="tech-tag">Jetson</span><span class="tech-tag">C++</span><span class="tech-tag">Python</span><span class="tech-tag">Computer Vision</span></div>
+          <ul class="project-bullets">
+            <li>Deployed SimpleFlow optical flow on a Jetson-based robot with ROS for real-time motion tracking.</li>
+            <li>Analyzed ROS node communication (USB camera → image transform → simple_flow → web video server).</li>
+            <li>Implemented dense optical flow with configurable parameters and RMSE-based accuracy validation.</li>
+          </ul>
+          <div class="project-gallery">
+            <div class="img-slot"><img src="images/optical-1.jpg" onerror="this.outerHTML='Image 1'" /></div>
+            <!-- <div class="img-slot"><img src="images/optical-2.jpg" onerror="this.outerHTML='Image 2'" /></div> -->
+            <div class="img-slot"><img src="images/optical-3.png" onerror="this.outerHTML='Image 3'" /></div>
+          </div>
+        </div>
+
+      </div>
+      <!-- PROJECT 6 -->
+        <div class="project-card reveal">
+          <div class="project-number">PROJECT 06</div>
+          <h3 class="project-title">Autonomous Lane Detection & Following — Yahboom ROSMASTER X3</h3>
+          <p class="project-sub">EGR 530 — Principles of Systems Engineering, Arizona State University</p>
+          <div class="project-tech"><span class="tech-tag">OpenCV</span><span class="tech-tag">ROS</span><span class="tech-tag">Jetson</span><span class="tech-tag">C++</span><span class="tech-tag">Python</span><span class="tech-tag">Computer Vision</span></div>
+          <ul class="project-bullets">
+            <li>Developed a lane detection system that processes live camera frames to identify road boundaries, testing and refining 3 different approaches over 5 algorithm iterations to achieve reliable autonomous steering.</li>
+            <li>Reduced false lane detections caused by floor textures and lighting changes by switching to green-tape markers and applying a bird's-eye view camera correction, improving detection consistency across 2+ lighting conditions.</li>
+            <li>Tuned the robot's steering controller across 50+ parameter adjustments to minimize overshooting and oscillation, enabling the robot to autonomously follow a multi-turn indoor track without manual intervention.</li>
+          </ul>
+          <div class="project-gallery">
+            <div class="img-slot"><img src="images/lane-1.jpg" onerror="this.outerHTML='Image 1'" /></div>
+            <div class="img-slot"><img src="images/lane-2.jpg" onerror="this.outerHTML='Image 2'" /></div>
+            <div class="img-slot"><img src="images/lane-3.jpeg" onerror="this.outerHTML='Image 3'" /></div>
+            <div class="img-slot"><img src="images/lane-4.jpg" onerror="this.outerHTML='Image 4'" /></div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- PATENTS -->
+      <div class="patents-section reveal">
+        <p class="section-label" style="margin-top:4rem">// Patents &amp; Certifications</p>
+        <h2 class="section-title" style="font-size:2rem">Intellectual Property</h2>
+        <div class="section-divider"></div>
+        <div class="patent-card"><div class="patent-icon">📋</div><div class="patent-info"><div class="patent-title-text">A Wearable Insole for Foot Reflexology (SET)</div><div class="patent-id">Design Patent No: 404185-001</div></div></div>
+        <div class="patent-card"><div class="patent-icon">📋</div><div class="patent-info"><div class="patent-title-text">A SYSTEM AND METHOD PREVENTING MISFUELLING IN VEHICLES</div><div class="patent-id">Patent No: 202441045378</div></div></div>
+        <div class="patent-card"><div class="patent-icon">📋</div><div class="patent-info"><div class="patent-title-text">An Energy Harvester Sole for Footwear</div><div class="patent-id">Design Patent No: 410719-001</div></div></div>
+        <div class="patent-card"><div class="patent-icon">🏅</div><div class="patent-info"><div class="patent-title-text">Medical Device Design &amp; Development Control</div><div class="patent-id">Certification — ISO 13485</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="footer-inner"><div class="footer-links"><a href="https://www.linkedin.com/in/yuvavignesh-balamurugan/" target="_blank">LinkedIn</a><a href="mailto:yuvavignesh.bala@gmail.com">Email</a><a href="index.html">Home</a><a href="experience.html">Experience</a><a href="blog.html">Blog</a></div><p class="footer-copy">© 2026 Yuvavignesh Balamurugan · Built with <span class="accent">precision</span></p></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
